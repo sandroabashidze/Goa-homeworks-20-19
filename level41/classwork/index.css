@@ -1,0 +1,30 @@
+a {
+    text-decoration: underline solid transparent;
+    color: black;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline solid black;
+    color: blue;
+    font-size: 18px;
+}
+
+
+.button {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: green;
+    color: #fff;
+    font-size: 18px;
+}

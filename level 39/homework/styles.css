@@ -1,0 +1,52 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.font-1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-3 {
+    font-family: 'Lora', serif;
+}
+
+.font-4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-5 {
+    font-family: 'Merriweather', serif;
+}

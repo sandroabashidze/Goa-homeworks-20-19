@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details Form</title>
+</head>
+<body>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <td colspan="2" style="border: 1px solid black;"><strong>Personal Details</strong></td>
+        </tr>
+        <tr>
+            <td style="border: none;">Salutation:</td>
+            <td style="border: none;">
+                <select name="salutation">
+                    <option value="none">--None--</option>
+                    <option value="mr">Mr.</option>
+                    <option value="mrs">Mrs.</option>
+                    <option value="ms">Ms.</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: none;"><label for="firstName">First name:</label></td>
+            <td style="border: none;"><input type="text" id="firstName" name="firstName"></td>
+        </tr>
+        <tr>
+            <td style="border: none;"><label for="lastName">Last name:</label></td>
+            <td style="border: none;"><input type="text" id="lastName" name="lastName"></td>
+        </tr>
+        <tr>
+            <td style="border: none;">Gender:</td>
+            <td style="border: none;">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: none;"><label for="email">Email:</label></td>
+            <td style="border: none;"><input type="email" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <td style="border: none;"><label for="dob">Date of Birth:</label></td>
+            <td style="border: none;"><input type="date" id="dob" name="dob"></td>
+        </tr>
+        <tr>
+            <td style="border: none;"><label for="address">Address:</label></td>
+            <td style="border: none;"><textarea id="address" name="address" rows="4" cols="40"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" style="border: none;">
+                <input type="submit" value="Submit">
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
