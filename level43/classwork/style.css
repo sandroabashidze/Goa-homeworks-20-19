@@ -1,0 +1,12 @@
+ul.circle {
+    list-style-type: circle;
+}
+ul.square {
+    list-style-type: square;
+}
+ul.none {
+    list-style-type: none; 
+}
+ul.disc {
+    list-style-type: disc;
+}
