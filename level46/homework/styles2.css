@@ -1,0 +1,7 @@
+.half-width {
+    width: 50%;             
+    background-color: lightgreen; 
+    padding: 10px;           
+    margin: 10px auto;     
+    border: 2px solid green; 
+}
